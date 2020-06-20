@@ -1,11 +1,10 @@
 node {
   stage ('source'){
-    git  
+    git 'https://github.com/GameOL/game-of-life'
   }
   
   stage ('build'){
     sh 'mvn package'
   }
   
- 
 }
