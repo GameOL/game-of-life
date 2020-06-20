@@ -4,10 +4,8 @@ node {
   }
   
   stage ('build'){
-    sh ''mvn package'
+    sh 'mvn package'
   }
   
-  stage('Sonar'){
-  
-  }
+ 
 }
